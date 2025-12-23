@@ -1,0 +1,45 @@
+@using WebApp.Models
+@model List<Product>
+
+
+<a class="btn btn-primary my-2" href="/product/add">Add</a>
+
+
+<table class="table table-bordered mt-2">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Descripton</th>
+            <th>Content</th>
+            <th>Price</th>
+            <th>SaleOff</th>
+            <th>Quantity</th>
+            <th>Image</th>
+            <th>Commands</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Product item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.CategoryName</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Content</td>
+                <td>@item.Price</td>
+                <td>@item.SaleOff</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <img src="/images/@item.ImageUrl" alt="@item.Name" width="100" />
+                </td>
+                <td>
+                    <a class="btn btn-outline-info" href="/product/edit/@item.Id">Edit</a>
+                    <a class="btn btn-outline-warning" href="/product/delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

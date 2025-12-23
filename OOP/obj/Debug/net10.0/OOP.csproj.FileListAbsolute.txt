@@ -1,0 +1,14 @@
+C:\KHOAHOC-NET\Module02\SHOP\OOP\bin\Debug\net10.0\OOP.exe
+C:\KHOAHOC-NET\Module02\SHOP\OOP\bin\Debug\net10.0\OOP.deps.json
+C:\KHOAHOC-NET\Module02\SHOP\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+C:\KHOAHOC-NET\Module02\SHOP\OOP\bin\Debug\net10.0\OOP.dll
+C:\KHOAHOC-NET\Module02\SHOP\OOP\bin\Debug\net10.0\OOP.pdb
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.dll
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\refint\OOP.dll
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.pdb
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+C:\KHOAHOC-NET\Module02\SHOP\OOP\obj\Debug\net10.0\ref\OOP.dll

@@ -1,0 +1,25 @@
+@model Product
+
+<form method="post" class="card">
+    <div class="card-header">
+        <h1 class="card-title">@Model.Name</h1>
+    </div>
+    <div class="card-body">
+        <input type="hidden" name="imageUrl" value="@Model.ImageUrl">
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/@Model.ImageUrl" alt="@Model.Name" width="100">
+            </div>
+            <div class="col-8">
+                <button class="btn btn-outline-danger">Are you sure delete?</button>
+                <a class="btn btn-outline-primary" href="/product">Cancel</a>
+            </div>
+        </div>
+    </div>
+</form>
+<style>
+    .card{
+        width: 500px;
+        margin: 50px auto;
+    }
+</style>

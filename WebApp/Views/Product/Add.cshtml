@@ -1,0 +1,60 @@
+@using WebApp.Models
+
+<form enctype="multipart/form-data" method="post">
+    <div class="row mb-1">
+        <label class="form-label col-2" for="categoryId">Category</label>
+        <div class="col-10">
+            <select class="form-control" name="categoryId" id="categoryId">
+                @foreach(Category item in ViewBag.categories){
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="row mb-1">
+        <label class="form-label col-2" for="name">Name</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" />
+        </div>
+    </div>
+     <div class="row mb-1">
+        <label class="form-label col-2" for="price">Price</label>
+        <div class="col-10">
+            <input class="form-control" type="number" step="0.01" id="price" name="price" />
+        </div>
+    </div>
+    <div class="row mb-1">
+        <label class="form-label col-2" for="quantity">Quantity</label>
+        <div class="col-10">
+            <input class="form-control" type="number"  id="quantity" name="quantity" />
+        </div>
+    </div>
+    <div class="row mb-1">
+       <label class="form-label col-2" for="saleOff">SaleOff</label>
+        <div class="col-10">
+            <input class="form-control" type="number" step="0.01" id="saleOff" name="saleOff" />
+        </div>
+    </div>
+     <div class="row mb-1">
+        <label class="form-label col-2" for="f">Image</label>
+        <div class="col-10">
+            <input class="form-control" type="file" id="f" name="f" accept="image/*"/>
+        </div>
+    </div>
+     <div class="row mb-1">
+        <label class="form-label col-2" for="description">Description</label>
+        <div class="col-10">
+            <textarea class="form-control" id="description" name="description"></textarea>
+        </div>
+    </div>
+     <div class="row mb-1">
+        <label class="form-label col-2" for="content">Content</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="content" name="content" />
+        </div>
+    </div>
+    <div>
+        <button class="offset-2 btn btn-primary" type="submit">Save</button>
+        <a href="/product" class="btn btn-outline-primary">Cancel</a>
+    </div>
+</form>

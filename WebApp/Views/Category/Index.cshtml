@@ -1,0 +1,31 @@
+@using WebApp.Models
+@model List<Category>
+
+<div>
+    <a href="/category/add">Add</a>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Descripton</th>
+            <th>Commands</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Category item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>
+                    <a href="/category/edit/@item.Id">Edit</a>
+                    <a href="/category/delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
