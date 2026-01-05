@@ -73,3 +73,46 @@ SET
     ImageUrl = @ImageUrl
 WHERE ProductId = @ProductId;
 GO
+
+Create table Member(
+	MemberId nvarchar(32) not null primary key,
+	GivenName nvarchar(32) not null,
+	Surname nvarchar(32),
+	Name nvarchar(64) not null,
+	Email nvarchar(64) not null unique,
+	Password binary(64) not null,
+	LoginCount smallint not null default 0,
+	Token char(32),
+	LoginDate datetime not null default getdate(),
+	RegisterDate datetime not null default getdate()
+	);
+go
+
+alter table Member ADD IsActived Bit not null default 0;
+go
+
+--drop proc ActiveAccount
+go
+create proc ActiveAccount(
+	@Token Char(32)
+)as
+	update Member Set IsActived = 1, Token = null Where Token=@Token;
+go
+
+create proc AddMember(
+	@Id nvarchar(32) ,
+	@GivenName nvarchar(32),
+	@Surname nvarchar(32) = null,
+	@Name nvarchar(64),
+	@Email nvarchar(64),
+	@Password binary(64) ,
+	@Token char(32) = null
+)as
+begin
+	if not exists(select * from Member where Email = @Email or MemberId = @Id)
+	insert into Member (MemberId, GivenName, Surname, Name, Email, Password, Token) values
+	(@Id, @GivenName, @Surname, @Name, @Email, @Password, @Token);
+end
+go
+--delete from Member
+--go

@@ -1,0 +1,28 @@
+@model List<Member>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>GiveName</th>
+            <th>Surname</th>
+            <th>Email</th>
+             <th>IsActived</th>
+              <th>Command</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model){
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.GivenName</td>
+                <td>@item.SurName</td>
+                <td>@item.Email</td>
+                <td>@item.IsActived</td>
+                <td>
+                    <a href="/dashboard/roles/@item.Id">Roles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

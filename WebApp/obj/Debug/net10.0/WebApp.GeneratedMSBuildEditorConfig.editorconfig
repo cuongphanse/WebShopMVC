@@ -11,61 +11,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\KHOAHOC-NET\Module02\SHOP\WebApp\
+build_property.ProjectDir = D:\NET01\Module2\WebShopMVC\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\KHOAHOC-NET\Module02\SHOP\WebApp
+build_property.MSBuildProjectDirectory = D:\NET01\Module2\WebShopMVC\WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Category/Add.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Areas/Dashboard/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Areas/Dashboard/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXE1lbWJlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Areas/Dashboard/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Areas/Dashboard/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Areas/Dashboard/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Auth/Verify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxWZXJpZnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Category/Edit.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Category/Index.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Hello/Index.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Hello/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Home/Index.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Product/Add.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Product/Delete.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Product/Edit.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Product/Index.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/Shared/_Layout.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/_ViewImports.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/KHOAHOC-NET/Module02/SHOP/WebApp/Views/_ViewStart.cshtml]
+[D:/NET01/Module2/WebShopMVC/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

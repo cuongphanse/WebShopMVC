@@ -4,13 +4,12 @@ using WebApp.Services;
 
 namespace WebApp.Models;
 
-public class CategoryRepository
+public class CategoryRepository : BaseRepository
 {
-    string connectionString;
-    public CategoryRepository(IConfiguration configuration)
+    public CategoryRepository(IConfiguration configuration) : base(configuration)
     {
-        connectionString = configuration.GetConnectionString("Shop") ?? throw new Exception("Not Found Shop Data");
     }
+
     public List<Category> GetCategories()
     {
         using IDbConnection connection = new SqlConnection(connectionString);

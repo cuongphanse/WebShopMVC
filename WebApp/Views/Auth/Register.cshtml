@@ -1,0 +1,35 @@
+@model RegisterModel
+<div asp-validation-for="All"></div>
+<form method="post">
+    <div>
+        <label asp-for="GivenName"></label>
+            <div>
+                <input required type="text" asp-for="GivenName">
+            </div>
+        </label>
+    </div>
+    <div>
+        <label asp-for="Surname"></label>
+            <div>
+                <input required type="text" asp-for="Surname">
+            </div>
+        </label>
+    </div>
+    <div>
+        <label asp-for="Email"></label>
+            <div>
+                <input required type="email" asp-for="Email">
+            </div>
+        </label>
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+            <div>
+                <input required type="password" asp-for="Password">
+            </div>
+        </label>
+    </div>
+    <div>
+        <button>Save Changes</button>
+    </div>
+</form>

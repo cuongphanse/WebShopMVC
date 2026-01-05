@@ -1,0 +1,28 @@
+@model LoginModel
+@if(TempData["Msg"] !=null){
+    <div class="alert alert-primary">@TempData["Msg"]</div>
+}
+<div asp-validation-summary="All"></div>
+<form method="post">
+    <div>
+        <label asp-for="Email">Email</label>
+        <div>
+            <input type="email" asp-for="Email">
+        </div>
+    </div>
+     <div>
+        <label asp-for="Password">Password</label>
+        <div>
+            <input type="password" asp-for="Password">
+        </div>
+    </div>
+     <div>
+        <label asp-for="Remember">Remember</label>
+        <div>
+            <input type="checkbox" asp-for="Remember">
+        </div>
+    </div>
+    <div>
+        <button>Login</button>
+    </div>
+</form>

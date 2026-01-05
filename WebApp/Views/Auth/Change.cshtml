@@ -1,0 +1,15 @@
+@model ChangeModel
+<div asp-validation-summary="All"></div>
+<form method="post">
+    <div>
+        <label asp-for="OldPassword"></label>
+        <input asp-for="OldPassword" type="password">
+    </div>
+     <div>
+        <label asp-for="NewPassword"></label>
+        <input asp-for="NewPassword" type="password">
+    </div>
+    <div>
+        <button>Change</button>
+    </div>
+</form>

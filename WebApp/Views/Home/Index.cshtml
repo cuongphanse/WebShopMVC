@@ -1,11 +1,5 @@
 @using WebApp.Models
 
-<ul style="display: flex; align-items: center ; gap: 20px; list-style-type: none;">
-    <li><a href="/category">Categories</a></li>
-    <li><a href="/product">Products</a></li>
-    <li><a href="/member">Member</a></li>
-</ul>
-
 <ul>
     @foreach(Category item in ViewBag.Categories)
     {
